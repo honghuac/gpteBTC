@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>Red Hat Summit 2017 Mobile API Management and Integration</title>
+
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+  <header class="header-footer-bg">
+      <div class="center">
+          <h3>Bitcoin Services Demo @ Red Hat Summit 2017 Mobile API Management and Integration
+          </h3>
+      </div>
+  </header>
+
+  <div id="count" class="">
+      <div id="formWrapper">
+          <p id="description">You are accessing Bitcoin information on a mobile app, courtesy of <b>Red Hat Mobile Application Platform</b> and <b>Red Hat 3Scale API Management Platform</b>.</p>
+          <b><h1>CREATE BITCOIN WALLET</h1></b>
+          <br>
+            <div>
+              <input type="text" id="walname" class="input-text" placeholder="Enter the name of the new Bitcoin Wallet"/>
+            </div>
+          <br>
+
+          <button id="submitname" type="button" class="submitname-button">Make Me a Wallet!</button>
+
+          <div id="cloudResponse" class="cloudResponseHeader"></div>
+          <div id="cloudResponse_source" class="cloudResponse"></div>
+          <div id="cloudResponse_walname" class="cloudResponse"></div>
+          <div id="cloudResponse_waladdress" class="cloudResponse"></div>
+          <div id="cloudResponse_token" class="cloudResponse"></div>
+
+      </div>
+  </div>
+
+      <br>
+
+      <button onclick="goBack()">Back to Main Page</button>
+  
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+      </script>
+      
+      <script src="./js/main.js"></script>
+      <script src="./js/create-wallet.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>Red Hat Summit 2017 Mobile API Management and Integration</title>
+
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+  <header class="header-footer-bg">
+      <div class="center">
+          <h3>Bitcoin Services Demo @ Red Hat Summit 2017 Mobile API Management and Integration
+          </h3>
+      </div>
+  </header>
+
+  <div id="count" class="">
+      <div id="formWrapper">
+          <p id="description">You are accessing Bitcoin information on a mobile app, courtesy of <b>Red Hat Mobile Application Platform</b> and <b>Red Hat 3Scale API Management Platform</b>.</p>
+          <br>
+          <b><h1>QUERY BITCOIN TRANSACTION INFO</h1></b>
+            <div>
+              <input type="radio" name="selection" id="btc_t1" checked> Bitcoin Transaction 1<br>
+            </div>
+            <div>
+              <input type="radio" name="selection" id="btc_t2"> Bitcoin Transaction 2<br>
+            </div>
+            <div>
+              <input type="radio" name="selection" id="btc_t3"> Bitcoin Transaction 3<br>
+            </div>
+          <br>
+          <button id="getinfo" type="button" class="getinfo-button">Show Me The Bitcoins!</button>
+          <div id="cloudResponse" class="cloudResponseHeader"></div>
+
+          <div id="cloudResponse_source" class="cloudResponse"></div>
+          <div id="cloudResponse_blockhash" class="cloudResponse"></div>
+          <div id="cloudResponse_blockheight" class="cloudResponse"></div>
+          <div id="cloudResponse_transhash" class="cloudResponse"></div>
+          <div id="cloudResponse_size" class="cloudResponse"></div>
+          <div id="cloudResponse_total" class="cloudResponse"></div>
+          <div id="cloudResponse_fees" class="cloudResponse"></div>
+          <div id="cloudResponse_confirmation" class="cloudResponse"></div>
+          <div id="cloudResponse_confirmed" class="cloudResponse"></div>
+          <div id="cloudResponse_received" class="cloudResponse"></div>
+      </div>
+  </div>
+
+      <br>
+
+      <button onclick="goBack()">Back to Main Page</button>
+
+
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+      </script>
+    <script src="./js/main.js"></script>
+    <script src="./js/query-transact.js"></script>
+  </body>
+</html>

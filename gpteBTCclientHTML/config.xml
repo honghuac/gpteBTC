@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.feedhenry.dart.helloworld.cordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Bit Coin Services Demo</name>
+    <description>
+        Red Hat Summit 2017 Mobile API Management and Integration
+    </description>
+    <author email="hong@redhat.com" href="http://www.redhat.com">
+        Hong
+    </author>
+    <content src="index.html" />
+    <access origin="https://*.us.training.redhatmobile.com" />
+    <engine name="android"/>
+    <engine name="ios"/>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    
+    <!-- 
+        Controls which URLs the WebView itself can be navigated to. 
+        Applies to top-level navigations only. 
+    -->
+    <allow-navigation href="https://*.redhatmobile.com/*" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-whitelist" spec="https://github.com/apache/cordova-plugin-whitelist"/>
+
+</widget>

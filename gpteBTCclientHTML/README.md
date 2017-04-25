@@ -15,4 +15,4 @@ Introducing
 
 This set of assets comes with architecture diagrams and use cases...
 
-~ Pls send Qs to hong@redhat.com ~
+Glad to hear your feedback :D

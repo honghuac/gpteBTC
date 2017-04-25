@@ -1,25 +1,18 @@
-# FeedHenry Hello World MBaaS Server
+Welcome to the Bitcoin Services Demo.
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+Bitcoin is a digital currency, based on the implementation of Blockchain technology.
 
-# Group Hello World API
+Blockchain is a open, distributed ledger
+* that maintains a continuously growing list of ordered records called blocks
+* each block is fault tolerant and cannot be altered retroactively
+* blockchain use cases include: medical record keeping, transaction processing and identity management
 
-# hello [/hello]
+Now, what if blockchain service users require mobile access and API management.
 
-'Hello world' endpoint.
+Introducing
+* Red Hat Mobile Application Platform for MBaaS hosting and development
+* 3Scale APICast for API management and integration
 
-## hello [POST] 
+This set of assets comes with architecture diagrams and use cases...
 
-'Hello world' endpoint.
-
-+ Request (application/json)
-    + Body
-            {
-              "hello": "world"
-            }
-
-+ Response 200 (application/json)
-    + Body
-            {
-              "msg": "Hello world"
-            }
+Glad to hear your feedback :D

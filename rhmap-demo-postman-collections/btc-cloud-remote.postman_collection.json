@@ -1,0 +1,122 @@
+{
+	"variables": [],
+	"info": {
+		"name": "btc-cloud-remote",
+		"_postman_id": "f89c2f85-18a1-fd2c-92a2-c3293c6bcf30",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ledger",
+			"description": "",
+			"item": [
+				{
+					"name": "Ledger - direct: Get Ledger",
+					"request": {
+						"url": "https://gpte-xrpxdiumxzkjgqzvoqzsgmpi-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-block?selection=foo",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Ledger - 3scale: Get Ledger",
+					"request": {
+						"url": "https://gpte-xrpxdiumxzkjgqzvoqzsgmpi-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-block?selection=btcledger_3scale",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transaction",
+			"description": "",
+			"item": [
+				{
+					"name": "Transaction - direct: Get T1 transaction",
+					"request": {
+						"url": "https://gpte-xrpxdiumxzkjgqzvoqzsgmpi-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-transaction?selection=btc_t1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Transaction - direct: Get T2 transaction",
+					"request": {
+						"url": "https://gpte-xrpxdiumxzkjgqzvoqzsgmpi-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-transaction?selection=btc_t2",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Transaction - direct: Get T3 transaction",
+					"request": {
+						"url": "https://gpte-xrpxdiumxzkjgqzvoqzsgmpi-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-transaction?selection=btc_t3",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Wallet",
+			"description": "",
+			"item": [
+				{
+					"name": "Wallet - direct: Get wallets",
+					"request": {
+						"url": "https://gpte-xrpxdiumxzkjgqzvoqzsgmpi-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-wallet",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Wallet - direct: Create wallet",
+					"request": {
+						"url": "https://gpte-xrpxdiumxzkjgqzvoqzsgmpi-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-wallet",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "walletName",
+									"value": "foobar5",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

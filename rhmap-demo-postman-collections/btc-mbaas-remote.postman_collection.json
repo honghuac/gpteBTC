@@ -1,0 +1,89 @@
+{
+	"variables": [],
+	"info": {
+		"name": "btc-mbaas-remote",
+		"_postman_id": "0f5a712e-4ef6-64bb-4a01-6370a0ca8041",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ledger",
+			"description": "",
+			"item": [
+				{
+					"name": "Ledger - direct: Get Ledger",
+					"request": {
+						"url": "https://gpte-gxtr352hsbodw4mylgqtywdo-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-block?selection=btcledger_direct",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transaction",
+			"description": "",
+			"item": [
+				{
+					"name": "Transaction - direct: Get T1 transaction",
+					"request": {
+						"url": "https://gpte-gxtr352hsbodw4mylgqtywdo-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-transaction?selection=btcledger_direct",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Wallet",
+			"description": "",
+			"item": [
+				{
+					"name": "Wallet - direct: Get wallets",
+					"request": {
+						"url": "https://gpte-gxtr352hsbodw4mylgqtywdo-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-wallet",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Wallet - direct: Create wallet copy",
+					"request": {
+						"url": "https://gpte-gxtr352hsbodw4mylgqtywdo-teama.mbaas4.tom.redhatmobile.com/summit-bitcoin-wallet",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "walletName",
+									"value": "foobar4",
+									"type": "text",
+									"enabled": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

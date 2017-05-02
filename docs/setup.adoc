@@ -62,13 +62,17 @@ npm install -g grunt-cli
 
 === App startup
 
-. Start the cloud app.
+. At the command-line terminal, switch to the subdirectory `gpteBTCcloud`. This contains the code for the https://github.com/honghuac/gpteBTC/tree/master/gpteBTCcloud[cloud app].
++
+. Start the cloud app, using `grunt`:
 +
 -----
 grunt serve
 -----
 +
-. Start the client app.
+. At the command-line terminal, switch to the subdirectory `gpteBTCclientHTML`. This contains the code for the https://github.com/honghuac/gpteBTC/tree/master/gpteBTCclientHTML[client app].
++
+. Start the client app, using `grunt`:
 +
 -----
 grunt serve:local
@@ -82,6 +86,7 @@ image::images/app.png[]
 [NOTE]
 Using FHC for local project development is important, be familiar with the following https://access.redhat.com/documentation/en-us/red_hat_mobile_application_platform_hosted/3/html/local_development_guide/getting-started-fhc[instructions]
 
+. Inspect the code for the MBaaS service in the subdirectory `gpteBTCmBaaS`. You will be testing the hosted version of this service a little later.
 
 == Testing
 
@@ -115,4 +120,4 @@ image::images/postman.png[]
 +
 . Observe the results of the MBaaS service test, and the HTTP 200 response codes. This indicates that the test for the APIs were successful.
 
-*CONGRATULATIONS! You completed the gpteBTC Bitcoin Services mobile application setup.*
+*CONGRATULATIONS! You have successfully setup and tested the gpteBTC Bitcoin Services mobile application.*

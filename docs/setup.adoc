@@ -110,9 +110,9 @@ image::images/bash.png[]
 . Import the collections into your *Postman* account, using these https://github.com/honghuac/gpteBTC/tree/master/rhmap-demo-postman-collections[instructions].
 
 . Test the MBaaS service for the gpteBTC mobile app, using the imported https://www.getpostman.com/docs/running_collections[collections].
-
++
 image::images/postman.png[]
-
++
 . Observe the results of the MBaaS service test, and the HTTP 200 response codes. This indicates that the test for the APIs were successful.
 
-*CONGRATULATIONS! You completed the demo setup.*
+*CONGRATULATIONS! You completed the *gpteBTC* Bitcoin Services mobile application setup.*

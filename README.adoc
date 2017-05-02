@@ -1,0 +1,33 @@
+= Mobile API Management demo
+
+== With Red Hat 3scale API Management Platform and Red Hat Mobile Application Platform
+
+:Author:    Hong Hua and Chad Darby
+:Contact:   https://github.com/honghuac/gpteBTC/issues/new
+:Date:      02.05.2017
+
+Welcome to the *gpteBTC* Bitcoin Services Mobile App.
+
+Bitcoin is a digital currency, based on the implementation of Blockchain technology.
+
+Blockchain is a open, distributed ledger:
+
+* that maintains a continuously growing list of ordered records called blocks
+* each block is fault tolerant and cannot be altered retroactively
+* blockchain use cases include: medical record keeping, transaction processing and identity management
+
+Now, what if blockchain service users require mobile access to Bitcoin data on their preferred smart device?
+
+Introducing:
+
+* Red Hat Mobile Application Platform for *mobile application and MBaaS service development and hosting*
+* Red Hat 3scale API Management Platform for *API management and integration*
+
+A mobile application has been developed to showcase the capabilities of a fictitious Bitcoin services company (*gpteBTC*), powered by NodeJS.
+This https://github.com/honghuac/gpteBTC/[Github repository] contains the source code of that mobile application, and is made available for your demo and prototyping needs.
+In addition, the Red Hat 3scale API management platform has to be configured to provide necessary backend API support for the mobile application.
+
+Follow this setup guide http://github.com/gpteBTC/docs/setup.adoc[guide] to get started with the demo.
+This https://docs.google.com/presentation/d/1nzgHLStB191V0ja_en_EYq51GeboJfqRSy3jnjKeJUk/[presentation] covers the architecture of the demo application.
+
+Glad to hear your feedback :D

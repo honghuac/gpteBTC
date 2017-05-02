@@ -115,4 +115,4 @@ image::images/postman.png[]
 +
 . Observe the results of the MBaaS service test, and the HTTP 200 response codes. This indicates that the test for the APIs were successful.
 
-*CONGRATULATIONS! You completed the *gpteBTC* Bitcoin Services mobile application setup.*
+*CONGRATULATIONS! You completed the gpteBTC Bitcoin Services mobile application setup.*

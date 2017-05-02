@@ -80,12 +80,12 @@ grunt serve:local
 +
 . Your default web browser launches, indicating a successful startup.
 . Test the mobile application using your web browser.
-
++
 image::images/app.png[]
-
++
 [NOTE]
 Using FHC for local project development is important, be familiar with the following https://access.redhat.com/documentation/en-us/red_hat_mobile_application_platform_hosted/3/html/local_development_guide/getting-started-fhc[instructions]
-
++
 . Inspect the code for the MBaaS service in the subdirectory `gpteBTCmBaaS`. You will be testing the hosted version of this service a little later.
 
 == Testing

@@ -27,7 +27,7 @@ A mobile application has been developed to showcase the capabilities of a fictit
 This https://github.com/honghuac/gpteBTC/[Github repository] contains the source code of that mobile application, and is made available for your demo and prototyping needs.
 In addition, the Red Hat 3scale API management platform has to be configured to provide necessary backend API support for the mobile application.
 
-Follow this setup http://github.com/honghuac/gpteBTC/docs/setup.adoc[guide] to get started with the demo.
+Follow this setup https://github.com/honghuac/gpteBTC/blob/master/docs/setup.adoc[guide] to get started with the demo.
 This https://docs.google.com/presentation/d/1nzgHLStB191V0ja_en_EYq51GeboJfqRSy3jnjKeJUk/[presentation] covers the architecture of the demo application.
 
 Glad to hear your feedback :D
